@@ -1,0 +1,136 @@
+
+/* 
+Common Attribute 
+*/
+
+body {
+  margin: 0;
+  font-family:"Times New Roman",Georgia,Serif;
+  background: #FFFFFF;
+  color: #5E5E5E;
+}
+
+h2 {
+  border-bottom: 1px dotted #999;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+Navigation
+*/
+
+#header {
+    height: 70px;
+    padding: auto 5%;
+    margin-bottom: 10px;
+}
+
+.navbar-default {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  border: 0;
+  padding: 0;
+/*  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+  */
+  overflow: hidden;
+}
+
+.navbar-default .navbar-brand {
+  margin-right: 50px;
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+  /*
+  background: url(../images/logo.png) no-repeat 0 50%;
+  */
+}
+
+.navbar-default .navbar-nav > li {
+  margin-left: 1px;
+}
+.navbar-default .navbar-nav > li > a {
+  padding: 20px 20px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #999;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+    background-color: #52b6ec;
+    color: #fff;
+}
+
+/*
+Main Image
+*/
+#main-image {
+    /*
+    background: #000000 url(../images/source.jpg) no-repeat 0px 0px;
+    background-size: content;
+     */
+top: 0;
+left: 0;
+background-image: url(../images/source.jpg);
+/* background-attachment: fixed; */
+background-size: cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+margin-top: -75px;
+padding: 100px 0;
+color: #fff;
+}
+
+/*
+Title Message
+*/
+
+#title-message {
+    text-align: center;
+}
+
+#footer {
+    padding: auto 5%;
+}
+
+#main {
+    min-height: 300px;
+}
+
+#sidebar {
+    min-height: 300px
+}
+
+.box.first {
+  margin-top: -40px;
+  border-radius: 5px 5px 0 0;
+}
+.box.last {
+  border-radius: 0 0 5px 5px;
+}
+
+.box.first {
+  margin-top: -40px;
+  border-radius: 5px 5px 0 0;
+}
+.box.last {
+  border-radius: 0 0 5px 5px;
+}
+
