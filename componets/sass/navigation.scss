@@ -1,0 +1,58 @@
+@import "compass/css3";
+
+/* Navigation Colors */
+$bgDefault   : #ffffff;
+$bgHighlight : #52b6ec;
+$colDefault  : #999999;
+$colHover    : #ffffff;
+$navHeight   : 60px;
+$navBrandSize: 28px;
+$navMenuSize : 16px;
+
+/* Navigation */
+
+.navbar-default {
+    background: $bgDefault; 
+    border-radius: 5px;
+    height: $navHeight;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+    // @include box-shadow(rgba(0,0,0,.2) 2px 2px 10px);
+
+    .navbar-brand {
+        padding: ($navHeight - $navBrandSize)/2 25px;
+        height: $navHeight;
+        font-size: $navBrandSize;
+        line-height: $navBrandSize;
+        color: $colDefault;
+    }
+
+    .navbar-nav {
+        li {
+            margin-left: 1px;
+            a {
+                padding: ($navHeight - $navMenuSize)/2 25px;
+                height: $navHeight;
+                font-size: $navMenuSize;
+                line-height: $navMenuSize + 3;
+                color: $colDefault;
+            }
+        }
+    }
+
+    .navbar-nav > li.active > a,
+    .navbar-nav > li.active:focus > a,
+    .navbar-nav > li.active:hover > a,
+    .navbar-nav > li:hover > a,
+    .navbar-nav > li:focus > a,
+    .navbar-nav > li.active > a:focus,
+    .navbar-nav > li.active:focus > a:focus,
+    .navbar-nav > li.active:hover > a:focus,
+    .navbar-nav > li:hover > a:focus,
+    .navbar-nav > li:focus > a:focus {
+        background-color: $bgHighlight;
+        color: $colHover;
+    }
+}
+

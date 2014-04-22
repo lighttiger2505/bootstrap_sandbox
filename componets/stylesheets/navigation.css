@@ -1,0 +1,45 @@
+/* Navigation Colors */
+/* Navigation */
+/* line 14, ../sass/navigation.scss */
+.navbar-default {
+  background: white;
+  border-radius: 5px;
+  height: 60px;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 23, ../sass/navigation.scss */
+.navbar-default .navbar-brand {
+  padding: 16px 25px;
+  height: 60px;
+  font-size: 28px;
+  line-height: 28px;
+  color: #999999;
+}
+/* line 32, ../sass/navigation.scss */
+.navbar-default .navbar-nav li {
+  margin-left: 1px;
+}
+/* line 34, ../sass/navigation.scss */
+.navbar-default .navbar-nav li a {
+  padding: 22px 25px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+}
+/* line 53, ../sass/navigation.scss */
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+  background-color: #52b6ec;
+  color: white;
+}
