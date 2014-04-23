@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <link href="stylesheets/main_image.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <title>MainImage</title>
+  </head>
+  <body>
+    <h1><span class="glyphicon glyphicon-adjust"></span>イメージ</h1>
+    <div class="container">
+      <div class="main-image"></div>
+    </div>
+
+    <h1><span class="glyphicon glyphicon-adjust"></span>スライダー</h1>
+    <div id=custom-slider>
+      <div class="container">
+        <!-- carousel -->
+        <div id=myCarousel2 class="carousel slide">
+          <!-- carousel-inner -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/source.jpg" alt="" class="img-responsive">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Slide1</h1>
+                  <p>slide1 caption</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/source.jpg" alt="" class="img-responsive">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Slide2</h1>
+                  <p>slide2 caption</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/source.jpg" alt="" class="img-responsive">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Slide3</h1>
+                  <p>slide3 caption</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel-inner -->
+
+          <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+
+          <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        <!-- carousel -->
+      </div>
+    </div>
+
+    <h1><span class="glyphicon glyphicon-adjust"></span>スライダートランジション</h1>
+    <div id=main-slider>
+      <div class="container">
+        <div id=myCarousel class="carousel">
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <img src="images/source.jpg" alt="slide1" class="rsponsive">
+              <div class="carousel-caption">
+                <h1>Slide1</h1>
+                <p>
+                  slide1caption
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/source.jpg" alt="slide2" class="rsponsive">
+              <div class="carousel-caption">
+                <h1>Slide2</h1>
+                <p>
+                  slide2caption
+                </p>
+              </div>
+            </div><!--/.item-->
+
+          </div><!--/.item-->
+
+          <a class="prev" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="next" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!--/.carousel-inner-->
+      </div><!--/#main-slider-->
+    </div>
+    <br>
+
+  </body>
+</html>

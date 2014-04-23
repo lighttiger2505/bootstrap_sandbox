@@ -12,20 +12,20 @@ $navMenuSize : 16px;
 /* Navigation */
 
 .navbar-default {
-    background: $bgDefault; 
-    border-radius: 5px;
-    height: $navHeight;
-    border: none;
-    padding: 0;
     overflow: hidden;
+    padding: 0;
+    height: $navHeight;
+    border: none; 
+    border-radius: 5px;
+    background: $bgDefault;
     // @include box-shadow(rgba(0,0,0,.2) 2px 2px 10px);
 
     .navbar-brand {
         padding: ($navHeight - $navBrandSize)/2 25px;
         height: $navHeight;
+        color: $colDefault;
         font-size: $navBrandSize;
         line-height: $navBrandSize;
-        color: $colDefault;
     }
 
     .navbar-nav {
@@ -34,9 +34,9 @@ $navMenuSize : 16px;
             a {
                 padding: ($navHeight - $navMenuSize)/2 25px;
                 height: $navHeight;
+                color: $colDefault;
                 font-size: $navMenuSize;
                 line-height: $navMenuSize + 3;
-                color: $colDefault;
             }
         }
     }

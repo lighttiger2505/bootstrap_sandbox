@@ -1,0 +1,94 @@
+/* line 6, ../sass/main_image.scss */
+.main-image {
+  padding: 100px 0;
+  background-image: url(../images/source.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* line 18, ../sass/main_image.scss */
+#custom-slider .carousel {
+  margin-bottom: 60px;
+}
+/* line 20, ../sass/main_image.scss */
+#custom-slider .carousel .item {
+  height: 300px;
+  background-color: #555;
+}
+/* line 25, ../sass/main_image.scss */
+#custom-slider .carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: main-image-height;
+}
+/* line 33, ../sass/main_image.scss */
+#custom-slider .carousel-caption {
+  z-index: 10;
+}
+
+/* line 39, ../sass/main_image.scss */
+#main-slider .carousel {
+  height: 300px;
+  color: white;
+}
+/* line 43, ../sass/main_image.scss */
+#main-slider .carousel .item {
+  -webkit-transition: opacity ease-in-out;
+  -webkit-transition-delay: 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  position: absolute;
+  top: 0;
+  left: 0 !important;
+  z-index: 1;
+  display: block !important;
+  width: 100%;
+  opacity: 0;
+}
+/* line 53, ../sass/main_image.scss */
+#main-slider .carousel .item .carousel-caption {
+  text-align: center;
+}
+/* line 58, ../sass/main_image.scss */
+#main-slider .carousel .item:first-child {
+  position: relative;
+  top: auto;
+}
+/* line 63, ../sass/main_image.scss */
+#main-slider .carousel .item.active {
+  z-index: 2;
+  opacity: 1;
+}
+/* line 69, ../sass/main_image.scss */
+#main-slider .carousel .prev,
+#main-slider .carousel .next {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 55px;
+}
+/* line 84, ../sass/main_image.scss */
+#main-slider .carousel .prev {
+  left: 10px;
+}
+/* line 88, ../sass/main_image.scss */
+#main-slider .carousel .next {
+  right: 10px;
+}
+/* line 93, ../sass/main_image.scss */
+#main-slider .carousel .prev:hover,
+#main-slider .carousel .next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
