@@ -1,0 +1,41 @@
+/* line 3, ../sass/contents.scss */
+#news .box {
+  background: #deb068;
+}
+
+/* line 9, ../sass/contents.scss */
+#time .box {
+  background: #e6b422;
+}
+
+/* line 15, ../sass/contents.scss */
+#service .box {
+  background: #38b48b;
+}
+
+/* line 21, ../sass/contents.scss */
+#location .box {
+  background: #cc7eb1;
+}
+
+/* line 26, ../sass/contents.scss */
+.box {
+  position: relative;
+  padding: 50px 30px;
+  border-bottom: 1px solid #e9e9e9;
+  background: #fef4f4;
+}
+/* line 32, ../sass/contents.scss */
+.box .top {
+  margin-top: -40px;
+  border-radius: 5px 5px 0 0;
+}
+/* line 37, ../sass/contents.scss */
+.box .buttom {
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 42, ../sass/contents.scss */
+.center {
+  text-align: center;
+}
